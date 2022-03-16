@@ -5,11 +5,13 @@
 * https://refactoring.guru/pl/design-patterns
 
 ## Zadania
-1. Wzorzec projektowy Singleton
+1. Poprawne rozwiązanie powinno przechodzić wszystkie testy uruchomione za pomocną `mvn clean test`
+
+2. Wzorzec projektowy Singleton
     * implementacja ma znajdować się wewnątrz klasy `Singleton`
     * metoda zwracająca instancję ma nazywać się `getInstance`
 
-2. Wzorzec projektowy Budowniczy
+3. Wzorzec projektowy Budowniczy
    * zaimplementuj klasę `Window` reprezentującą okno programu graficznego
    * klasa ma przyjmować jako argumenty swojego konstruktora:
      * `int x` - składową x położenia okna (domyślna wartość 0)
